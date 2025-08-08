@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { CreditCard, Smartphone, Coins } from 'lucide-react';
-import Header from '../components/Layout/Header';
-import Footer from '../components/Layout/Footer';
-import { Button } from '../components/ui/button';
-import { Input } from '../components/ui/input';
-import { Checkbox } from '../components/ui/checkbox';
-import productHoodie from '../assets/product-hoodie.jpg';
-import productTee from '../assets/product-tee.jpg';
+import Header from '@/components/Layout/Header';
+import Footer from '@/components/Layout/Footer';
+import { Button } from '@/components/ui/button';
+import { Input } from '@/components/ui/input';
+import { Checkbox } from '@/components/ui/checkbox';
+import productHoodie from '@/assets/product-hoodie.jpg';
+import productTee from '@/assets/product-tee.jpg';
 
 const Checkout: React.FC = () => {
   const [paymentMethod, setPaymentMethod] = useState<'upi' | 'cod'>('upi');

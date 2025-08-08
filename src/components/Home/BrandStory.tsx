@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../UI/ICLButton';
-import lookbookImage from '../../assets/lookbook-1.jpg';
+import lookbookImage from '@/assets/lookbook-1.jpg';
 
 const BrandStory: React.FC = () => {
   return (

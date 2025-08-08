@@ -1,17 +1,17 @@
 import React, { useState } from 'react';
 import { Heart, ShoppingCart, Plus, Minus, Ruler, Star } from 'lucide-react';
-import Header from '../components/Layout/Header';
-import Footer from '../components/Layout/Footer';
-import Button from '../components/UI/ICLButton';
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "../components/ui/dialog";
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "../components/ui/carousel";
-import { AspectRatio } from "../components/ui/aspect-ratio";
+import Header from '@/components/Layout/Header';
+import Footer from '@/components/Layout/Footer';
+import Button from '@/components/UI/ICLButton';
+import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 // Mock product images
-import heroImage from '../assets/hero-image.jpg';
-import productHoodie from '../assets/product-hoodie.jpg';
-import productTee from '../assets/product-tee.jpg';
-import productPants from '../assets/product-pants.jpg';
+import heroImage from '@/assets/hero-image.jpg';
+import productHoodie from '@/assets/product-hoodie.jpg';
+import productTee from '@/assets/product-tee.jpg';
+import productPants from '@/assets/product-pants.jpg';
 
 const ProductDetail = () => {
   const [selectedSize, setSelectedSize] = useState<string>('');

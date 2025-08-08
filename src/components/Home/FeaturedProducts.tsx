@@ -2,9 +2,9 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart } from 'lucide-react';
 import Button from '../UI/ICLButton';
-import productHoodie from '../../assets/product-hoodie.jpg';
-import productTee from '../../assets/product-tee.jpg';
-import productPants from '../../assets/product-pants.jpg';
+import productHoodie from '@/assets/product-hoodie.jpg';
+import productTee from '@/assets/product-tee.jpg';
+import productPants from '@/assets/product-pants.jpg';
 
 interface Product {
   id: string;

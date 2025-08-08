@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Filter, Grid, List, Heart } from 'lucide-react';
-import Header from '../components/Layout/Header';
-import Footer from '../components/Layout/Footer';
-import Button from '../components/UI/ICLButton';
+import Header from '@/components/Layout/Header';
+import Footer from '@/components/Layout/Footer';
+import Button from '@/components/UI/ICLButton';
 import { Link } from 'react-router-dom';
 
 // Mock product data
