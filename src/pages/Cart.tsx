@@ -3,7 +3,7 @@ import { Minus, Plus, Trash2, ShoppingBag } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Header from '@/components/Layout/Header';
 import Footer from '@/components/Layout/Footer';
-import { Button } from '@/components/ui/button';
+import { Button } from '@/components/UI/button';
 import productHoodie from '@/assets/product-hoodie.jpg';
 import productTee from '@/assets/product-tee.jpg';
 

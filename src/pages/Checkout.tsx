@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { CreditCard, Smartphone, Coins } from 'lucide-react';
 import Header from '@/components/Layout/Header';
 import Footer from '@/components/Layout/Footer';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Checkbox } from '@/components/ui/checkbox';
+import { Button } from '@/components/UI/button';
+import { Input } from '@/components/UI/input';
+import { Checkbox } from '@/components/UI/checkbox';
 import productHoodie from '@/assets/product-hoodie.jpg';
 import productTee from '@/assets/product-tee.jpg';
 

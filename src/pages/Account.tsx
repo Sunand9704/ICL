@@ -2,9 +2,9 @@ import React, { useState } from 'react';
 import { User, Package, Heart, LogOut, Eye, EyeOff } from 'lucide-react';
 import Header from '@/components/Layout/Header';
 import Footer from '@/components/Layout/Footer';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Button } from '@/components/UI/button';
+import { Input } from '@/components/UI/input';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/UI/tabs';
 import productHoodie from '@/assets/product-hoodie.jpg';
 import productTee from '@/assets/product-tee.jpg';
 
