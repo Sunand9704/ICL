@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Button from '../UI/ICLButton';
-import heroImage from '@/assets/hero-image.jpg';
+import heroImage from '../../assets/hero-image.jpg';
 
 const Hero: React.FC = () => {
   return (

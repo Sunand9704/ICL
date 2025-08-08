@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { Minus, Plus, Trash2, ShoppingBag } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import Header from '@/components/Layout/Header';
-import Footer from '@/components/Layout/Footer';
-import { Button } from '@/components/ui/button';
-import productHoodie from '@/assets/product-hoodie.jpg';
-import productTee from '@/assets/product-tee.jpg';
+import Header from '../components/Layout/Header';
+import Footer from '../components/Layout/Footer';
+import { Button } from '../components/ui/button';
+import productHoodie from '../assets/product-hoodie.jpg';
+import productTee from '../assets/product-tee.jpg';
 
 interface CartItem {
   id: number;

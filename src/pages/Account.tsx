@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { User, Package, Heart, LogOut, Eye, EyeOff } from 'lucide-react';
-import Header from '@/components/Layout/Header';
-import Footer from '@/components/Layout/Footer';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import productHoodie from '@/assets/product-hoodie.jpg';
-import productTee from '@/assets/product-tee.jpg';
+import Header from '../components/Layout/Header';
+import Footer from '../components/Layout/Footer';
+import { Button } from '../components/ui/button';
+import { Input } from '../components/ui/input';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '../components/ui/tabs';
+import productHoodie from '../assets/product-hoodie.jpg';
+import productTee from '../assets/product-tee.jpg';
 
 const Account: React.FC = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);

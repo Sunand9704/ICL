@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '@/components/Layout/Header';
-import Footer from '@/components/Layout/Footer';
-import heroImage from '@/assets/hero-image.jpg';
+import Header from '../components/Layout/Header';
+import Footer from '../components/Layout/Footer';
+import heroImage from '../assets/hero-image.jpg';
 
 const About: React.FC = () => {
   const milestones = [

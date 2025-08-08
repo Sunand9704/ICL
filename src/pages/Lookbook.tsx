@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from '@/components/Layout/Header';
-import Footer from '@/components/Layout/Footer';
-import lookbookImage from '@/assets/lookbook-1.jpg';
+import Header from '../components/Layout/Header';
+import Footer from '../components/Layout/Footer';
+import lookbookImage from '../assets/lookbook-1.jpg';
 
 const Lookbook: React.FC = () => {
   const lookbookItems = [
